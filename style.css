@@ -1,7 +1,8 @@
-.containter1{
-    background-color: white;
+.container1, .container2{
     display: flex;
     flex-direction: row;
+    border: 2px solid blue;
+    width: 40%;
 }
 .item1{
     background-color: blue;
@@ -11,12 +12,13 @@
 }
 .container2{
     background-color: brown;
-    display: flex;
-    flex-direction: row;
 }
 .item2{
     background-color: purple;
     width: 50px;
     height: 50px;
     margin: 5px;
+}
+ul{
+    list-style-type: none;
 }
