@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: row;
     border: 2px solid blue;
-    width: 40%;
+    width: 50%;
 }
 .item1, .item2{
     width: 50px;
     height: 50px;
-    margin: auto;
+    margin: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -20,6 +20,6 @@
 .item2{
     background-color: purple;
 }
-ul{
+div{
     list-style-type: none;
 }
